@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">980 1TB NVMe</title>
+  <desc id="desc">Samsung SSD product illustration</desc>
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3d4837"/><stop offset="1" stop-color="#463b29"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#20372e" flood-opacity=".2"/></filter>
+  </defs>
+  <rect x="24" y="24" width="1152" height="852" rx="40" fill="#f3ecd5" opacity=".34"/>
+  <circle cx="600" cy="432" r="287" fill="#fff" opacity=".48"/>
+  <circle cx="600" cy="432" r="246" fill="none" stroke="#d2ad54" stroke-opacity=".17" stroke-width="2"/>
+  <circle cx="600" cy="432" r="207" fill="none" stroke="#d2ad54" stroke-opacity=".1" stroke-width="2" stroke-dasharray="4 12"/>
+  <text x="68" y="91" fill="#463b29" font-family="Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="1">TECHNEST</text>
+  <text x="68" y="121" fill="#463b29" opacity=".58" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">THIET BI CONG NGHE</text>
+  <rect x="900" y="62" width="230" height="44" rx="22" fill="#fff" opacity=".78"/>
+  <text x="1015" y="90" text-anchor="middle" fill="#463b29" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">LINH KIEN</text>
+  <path d="M175 238h44m-22-22v44m785 370h38m-19-19v38" stroke="#d2ad54" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+  
+    <g filter="url(#shadow)" transform="rotate(-13 600 445)">
+      <path d="M300 392q0-28 28-28h525q28 0 28 28v105q0 28-28 28H328q-28 0-28-28Z" fill="#283532"/>
+      <path d="M332 387h486v116H332Z" fill="#463b29"/>
+      <circle cx="366" cy="445" r="11" fill="#d0a554"/>
+      <rect x="402" y="414" width="150" height="61" rx="8" fill="#26302d"/>
+      <rect x="568" y="414" width="150" height="61" rx="8" fill="#26302d"/>
+      <path d="M420 432h110m-110 16h74m-74 16h92m75-32h108m-108 16h76m-76 16h98" stroke="#d2ad54" stroke-width="6" stroke-linecap="round"/>
+      <path d="M862 412v65h70v-65l-19-24h-32Z" fill="#cfaa5e"/>
+    </g>
+  <text x="68" y="779" fill="#463b29" opacity=".62" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">SAMSUNG</text>
+  <text x="68" y="824" fill="#463b29" font-family="Arial,sans-serif" font-size="39" font-weight="700">980 1TB NVMe</text>
+  <text x="68" y="855" fill="#463b29" opacity=".58" font-family="Arial,sans-serif" font-size="14">capacity: 1TB  ·  interface: NVMe PCIe 3.0</text>
+  <text x="1128" y="824" text-anchor="end" fill="#463b29" opacity=".48" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">SSD-001</text>
+</svg>

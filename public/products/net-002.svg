@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Deco X20 2-Pack Mesh Wi-Fi 6</title>
+  <desc id="desc">TP-Link Mesh Wi-Fi product illustration</desc>
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3d4837"/><stop offset="1" stop-color="#463b29"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#20372e" flood-opacity=".2"/></filter>
+  </defs>
+  <rect x="24" y="24" width="1152" height="852" rx="40" fill="#f3ecd5" opacity=".34"/>
+  <circle cx="600" cy="432" r="287" fill="#fff" opacity=".48"/>
+  <circle cx="600" cy="432" r="246" fill="none" stroke="#d2ad54" stroke-opacity=".17" stroke-width="2"/>
+  <circle cx="600" cy="432" r="207" fill="none" stroke="#d2ad54" stroke-opacity=".1" stroke-width="2" stroke-dasharray="4 12"/>
+  <text x="68" y="91" fill="#463b29" font-family="Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="1">TECHNEST</text>
+  <text x="68" y="121" fill="#463b29" opacity=".58" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">THIET BI CONG NGHE</text>
+  <rect x="900" y="62" width="230" height="44" rx="22" fill="#fff" opacity=".78"/>
+  <text x="1015" y="90" text-anchor="middle" fill="#463b29" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">THIET BI MANG</text>
+  <path d="M175 238h44m-22-22v44m785 370h38m-19-19v38" stroke="#d2ad54" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+  
+    <g filter="url(#shadow)">
+      <rect x="440" y="230" width="320" height="470" rx="112" fill="#463b29"/>
+      <rect x="461" y="252" width="278" height="427" rx="97" fill="url(#screen)"/>
+      <circle cx="600" cy="415" r="94" fill="#d2ad54" opacity=".2"/>
+      <path d="M600 349q-85 0-134 64m134-64q85 0 134 64m-134-1q-56 0-88 42m88-42q56 0 88 42m-88 1v76" fill="none" stroke="#f3ecd5" stroke-width="13" stroke-linecap="round"/>
+      <circle cx="600" cy="585" r="10" fill="#d2ad54"/>
+    </g>
+  <text x="68" y="779" fill="#463b29" opacity=".62" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">TP-LINK</text>
+  <text x="68" y="824" fill="#463b29" font-family="Arial,sans-serif" font-size="31" font-weight="700">Deco X20 2-Pack Mesh Wi-Fi 6</text>
+  <text x="68" y="855" fill="#463b29" opacity=".58" font-family="Arial,sans-serif" font-size="14">standard: Wi-Fi 6  ·  coverage: Up to 370 m2</text>
+  <text x="1128" y="824" text-anchor="end" fill="#463b29" opacity=".48" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">NET-002</text>
+</svg>

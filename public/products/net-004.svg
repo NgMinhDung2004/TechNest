@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">GS308 8-Port Gigabit Switch</title>
+  <desc id="desc">Netgear Switch product illustration</desc>
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#173e37"/><stop offset="1" stop-color="#193d36"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#20372e" flood-opacity=".2"/></filter>
+  </defs>
+  <rect x="24" y="24" width="1152" height="852" rx="40" fill="#dcefe5" opacity=".34"/>
+  <circle cx="600" cy="432" r="287" fill="#fff" opacity=".48"/>
+  <circle cx="600" cy="432" r="246" fill="none" stroke="#48a98d" stroke-opacity=".17" stroke-width="2"/>
+  <circle cx="600" cy="432" r="207" fill="none" stroke="#48a98d" stroke-opacity=".1" stroke-width="2" stroke-dasharray="4 12"/>
+  <text x="68" y="91" fill="#193d36" font-family="Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="1">TECHNEST</text>
+  <text x="68" y="121" fill="#193d36" opacity=".58" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">THIET BI CONG NGHE</text>
+  <rect x="900" y="62" width="230" height="44" rx="22" fill="#fff" opacity=".78"/>
+  <text x="1015" y="90" text-anchor="middle" fill="#193d36" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">THIET BI MANG</text>
+  <path d="M175 238h44m-22-22v44m785 370h38m-19-19v38" stroke="#48a98d" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+  
+    <g filter="url(#shadow)" transform="rotate(-5 600 445)">
+      <rect x="270" y="352" width="660" height="206" rx="28" fill="#193d36"/>
+      <rect x="298" y="379" width="604" height="152" rx="17" fill="url(#screen)"/>
+      <rect x="348" y="422" width="42" height="58" rx="7" fill="#141e1c" stroke="#48a98d" stroke-width="3"/><circle cx="369" cy="500" r="5" fill="#48a98d"/><rect x="414" y="422" width="42" height="58" rx="7" fill="#141e1c" stroke="#48a98d" stroke-width="3"/><circle cx="435" cy="500" r="5" fill="#48a98d"/><rect x="480" y="422" width="42" height="58" rx="7" fill="#141e1c" stroke="#48a98d" stroke-width="3"/><circle cx="501" cy="500" r="5" fill="#48a98d"/><rect x="546" y="422" width="42" height="58" rx="7" fill="#141e1c" stroke="#48a98d" stroke-width="3"/><circle cx="567" cy="500" r="5" fill="#48a98d"/><rect x="612" y="422" width="42" height="58" rx="7" fill="#141e1c" stroke="#48a98d" stroke-width="3"/><circle cx="633" cy="500" r="5" fill="#48a98d"/><rect x="678" y="422" width="42" height="58" rx="7" fill="#141e1c" stroke="#48a98d" stroke-width="3"/><circle cx="699" cy="500" r="5" fill="#708078"/><rect x="744" y="422" width="42" height="58" rx="7" fill="#141e1c" stroke="#48a98d" stroke-width="3"/><circle cx="765" cy="500" r="5" fill="#708078"/><rect x="810" y="422" width="42" height="58" rx="7" fill="#141e1c" stroke="#48a98d" stroke-width="3"/><circle cx="831" cy="500" r="5" fill="#708078"/>
+      <path d="M372 575v33m456-33v33" stroke="#aab5af" stroke-width="14" stroke-linecap="round"/>
+      <path d="M348 620h504" stroke="#aab5af" stroke-width="12" stroke-linecap="round"/>
+    </g>
+  <text x="68" y="779" fill="#193d36" opacity=".62" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">NETGEAR</text>
+  <text x="68" y="824" fill="#193d36" font-family="Arial,sans-serif" font-size="39" font-weight="700">GS308 8-Port Gigabit Switch</text>
+  <text x="68" y="855" fill="#193d36" opacity=".58" font-family="Arial,sans-serif" font-size="14">ports: 8  ·  speed: Gigabit</text>
+  <text x="1128" y="824" text-anchor="end" fill="#193d36" opacity=".48" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">NET-004</text>
+</svg>

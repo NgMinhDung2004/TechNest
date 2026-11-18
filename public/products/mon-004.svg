@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">ProArt PA278QV 27-inch</title>
+  <desc id="desc">ASUS Monitor product illustration</desc>
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#252f58"/><stop offset="1" stop-color="#272e48"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#20372e" flood-opacity=".2"/></filter>
+  </defs>
+  <rect x="24" y="24" width="1152" height="852" rx="40" fill="#e5e8f8" opacity=".34"/>
+  <circle cx="600" cy="432" r="287" fill="#fff" opacity=".48"/>
+  <circle cx="600" cy="432" r="246" fill="none" stroke="#818de0" stroke-opacity=".17" stroke-width="2"/>
+  <circle cx="600" cy="432" r="207" fill="none" stroke="#818de0" stroke-opacity=".1" stroke-width="2" stroke-dasharray="4 12"/>
+  <text x="68" y="91" fill="#272e48" font-family="Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="1">TECHNEST</text>
+  <text x="68" y="121" fill="#272e48" opacity=".58" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">THIET BI CONG NGHE</text>
+  <rect x="900" y="62" width="230" height="44" rx="22" fill="#fff" opacity=".78"/>
+  <text x="1015" y="90" text-anchor="middle" fill="#272e48" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">MAN HINH</text>
+  <path d="M175 238h44m-22-22v44m785 370h38m-19-19v38" stroke="#818de0" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+  
+    <g filter="url(#shadow)">
+      <rect x="285" y="175" width="630" height="440" rx="24" fill="#263832"/>
+      <rect x="304" y="194" width="592" height="395" rx="12" fill="url(#screen)"/>
+      <circle cx="600" cy="382" r="150" fill="#818de0" opacity=".22"/>
+      <circle cx="600" cy="382" r="102" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="2"/>
+      <circle cx="600" cy="382" r="57" fill="#e5e8f8" opacity=".86"/>
+      <path d="M571 382h58M600 353v58" stroke="#272e48" stroke-opacity=".55" stroke-width="4" stroke-linecap="round"/>
+      <text x="600" y="548" text-anchor="middle" fill="#fff" opacity=".75" font-family="Arial,sans-serif" font-size="14" letter-spacing="4">ASUS</text>
+      <path d="M570 615h60l22 110H548Z" fill="#aebbb4"/>
+      <path d="M470 728q130-29 260 0l35 18q-165 24-330 0Z" fill="#cbd4ce"/>
+    </g>
+  <text x="68" y="779" fill="#272e48" opacity=".62" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">ASUS</text>
+  <text x="68" y="824" fill="#272e48" font-family="Arial,sans-serif" font-size="39" font-weight="700">ProArt PA278QV 27-inch</text>
+  <text x="68" y="855" fill="#272e48" opacity=".58" font-family="Arial,sans-serif" font-size="14">size: 27 inch  ·  resolution: 2560x1440  ·  color: 100% sRGB</text>
+  <text x="1128" y="824" text-anchor="end" fill="#272e48" opacity=".48" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">MON-004</text>
+</svg>

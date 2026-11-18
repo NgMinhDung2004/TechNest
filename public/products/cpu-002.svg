@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Core i7-14700K</title>
+  <desc id="desc">Intel CPU product illustration</desc>
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#183e52"/><stop offset="1" stop-color="#293d50"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#20372e" flood-opacity=".2"/></filter>
+  </defs>
+  <rect x="24" y="24" width="1152" height="852" rx="40" fill="#dceef2" opacity=".34"/>
+  <circle cx="600" cy="432" r="287" fill="#fff" opacity=".48"/>
+  <circle cx="600" cy="432" r="246" fill="none" stroke="#5baac3" stroke-opacity=".17" stroke-width="2"/>
+  <circle cx="600" cy="432" r="207" fill="none" stroke="#5baac3" stroke-opacity=".1" stroke-width="2" stroke-dasharray="4 12"/>
+  <text x="68" y="91" fill="#293d50" font-family="Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="1">TECHNEST</text>
+  <text x="68" y="121" fill="#293d50" opacity=".58" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">THIET BI CONG NGHE</text>
+  <rect x="900" y="62" width="230" height="44" rx="22" fill="#fff" opacity=".78"/>
+  <text x="1015" y="90" text-anchor="middle" fill="#293d50" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">LINH KIEN</text>
+  <path d="M175 238h44m-22-22v44m785 370h38m-19-19v38" stroke="#5baac3" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+  
+    <g filter="url(#shadow)">
+      <path d="M455 275v-31M455 575v31M425 305h-31M725 305h31" stroke="#c89d50" stroke-width="8" stroke-linecap="round"/><path d="M497 275v-31M497 575v31M425 347h-31M725 347h31" stroke="#c89d50" stroke-width="8" stroke-linecap="round"/><path d="M539 275v-31M539 575v31M425 389h-31M725 389h31" stroke="#c89d50" stroke-width="8" stroke-linecap="round"/><path d="M581 275v-31M581 575v31M425 431h-31M725 431h31" stroke="#c89d50" stroke-width="8" stroke-linecap="round"/><path d="M623 275v-31M623 575v31M425 473h-31M725 473h31" stroke="#c89d50" stroke-width="8" stroke-linecap="round"/><path d="M665 275v-31M665 575v31M425 515h-31M725 515h31" stroke="#c89d50" stroke-width="8" stroke-linecap="round"/><path d="M707 275v-31M707 575v31M425 557h-31M725 557h31" stroke="#c89d50" stroke-width="8" stroke-linecap="round"/><path d="M749 275v-31M749 575v31M425 599h-31M725 599h31" stroke="#c89d50" stroke-width="8" stroke-linecap="round"/>
+      <rect x="435" y="275" width="330" height="300" rx="28" fill="#b9c9c1"/>
+      <rect x="458" y="298" width="284" height="254" rx="18" fill="#263a34"/>
+      <rect x="488" y="328" width="224" height="194" rx="13" fill="url(#screen)"/>
+      <rect x="517" y="357" width="166" height="136" rx="10" fill="#5baac3"/>
+      <path d="M546 386h108M546 410h72M546 434h93M546 458h57" stroke="#fff" stroke-opacity=".7" stroke-width="8" stroke-linecap="round"/>
+      <text x="600" y="535" text-anchor="middle" fill="#eaf3ee" font-family="Arial,sans-serif" font-size="16" letter-spacing="3">TECH CORE</text>
+    </g>
+  <text x="68" y="779" fill="#293d50" opacity=".62" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">INTEL</text>
+  <text x="68" y="824" fill="#293d50" font-family="Arial,sans-serif" font-size="39" font-weight="700">Core i7-14700K</text>
+  <text x="68" y="855" fill="#293d50" opacity=".58" font-family="Arial,sans-serif" font-size="14">socket: LGA1700  ·  cores: 20</text>
+  <text x="1128" y="824" text-anchor="end" fill="#293d50" opacity=".48" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">CPU-002</text>
+</svg>

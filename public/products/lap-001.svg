@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Aspire 5 A515-58M</title>
+  <desc id="desc">Acer laptop product illustration</desc>
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#173e37"/><stop offset="1" stop-color="#193d36"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#20372e" flood-opacity=".2"/></filter>
+  </defs>
+  <rect x="24" y="24" width="1152" height="852" rx="40" fill="#dcefe5" opacity=".34"/>
+  <circle cx="600" cy="432" r="287" fill="#fff" opacity=".48"/>
+  <circle cx="600" cy="432" r="246" fill="none" stroke="#48a98d" stroke-opacity=".17" stroke-width="2"/>
+  <circle cx="600" cy="432" r="207" fill="none" stroke="#48a98d" stroke-opacity=".1" stroke-width="2" stroke-dasharray="4 12"/>
+  <text x="68" y="91" fill="#193d36" font-family="Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="1">TECHNEST</text>
+  <text x="68" y="121" fill="#193d36" opacity=".58" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">THIET BI CONG NGHE</text>
+  <rect x="900" y="62" width="230" height="44" rx="22" fill="#fff" opacity=".78"/>
+  <text x="1015" y="90" text-anchor="middle" fill="#193d36" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">LAPTOP</text>
+  <path d="M175 238h44m-22-22v44m785 370h38m-19-19v38" stroke="#48a98d" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+  
+    <g filter="url(#shadow)">
+      <rect x="295" y="185" width="610" height="405" rx="25" fill="#263832"/>
+      <rect x="313" y="203" width="574" height="365" rx="13" fill="url(#screen)"/>
+      <circle cx="600" cy="210" r="3" fill="#81978d"/>
+      <circle cx="600" cy="385" r="118" fill="#48a98d" opacity=".13"/>
+      <circle cx="600" cy="385" r="78" fill="none" stroke="#ffffff" stroke-opacity=".24" stroke-width="2"/>
+      <path d="M600 325 614 369 660 371 624 399 638 443 600 416 562 443 576 399 540 371 586 369Z" fill="#dcefe5" opacity=".92"/>
+      <text x="600" y="508" text-anchor="middle" fill="#ffffff" opacity=".8" font-family="Arial,sans-serif" font-size="16" letter-spacing="5">ACER</text>
+      <path d="m250 594 700 0 70 48q8 7-11 12H190q-18-5-10-12Z" fill="#c6d0ca"/>
+      <path d="M425 598h350l-20 23H445Z" fill="#a8b5ae"/>
+      <path d="M530 648h140l-14 8h-112Z" fill="#87968e"/>
+    </g>
+  <text x="68" y="779" fill="#193d36" opacity=".62" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">ACER</text>
+  <text x="68" y="824" fill="#193d36" font-family="Arial,sans-serif" font-size="39" font-weight="700">Aspire 5 A515-58M</text>
+  <text x="68" y="855" fill="#193d36" opacity=".58" font-family="Arial,sans-serif" font-size="14">cpu: Intel Core i5-1335U  ·  ram: 16GB  ·  storage: 512GB SSD</text>
+  <text x="1128" y="824" text-anchor="end" fill="#193d36" opacity=".48" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">LAP-001</text>
+</svg>

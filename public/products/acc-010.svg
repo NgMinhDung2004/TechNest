@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">USB-C 7-in-1 Hub</title>
+  <desc id="desc">Ugreen Hub product illustration</desc>
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#183e52"/><stop offset="1" stop-color="#293d50"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#20372e" flood-opacity=".2"/></filter>
+  </defs>
+  <rect x="24" y="24" width="1152" height="852" rx="40" fill="#dceef2" opacity=".34"/>
+  <circle cx="600" cy="432" r="287" fill="#fff" opacity=".48"/>
+  <circle cx="600" cy="432" r="246" fill="none" stroke="#5baac3" stroke-opacity=".17" stroke-width="2"/>
+  <circle cx="600" cy="432" r="207" fill="none" stroke="#5baac3" stroke-opacity=".1" stroke-width="2" stroke-dasharray="4 12"/>
+  <text x="68" y="91" fill="#293d50" font-family="Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="1">TECHNEST</text>
+  <text x="68" y="121" fill="#293d50" opacity=".58" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">THIET BI CONG NGHE</text>
+  <rect x="900" y="62" width="230" height="44" rx="22" fill="#fff" opacity=".78"/>
+  <text x="1015" y="90" text-anchor="middle" fill="#293d50" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">PHU KIEN</text>
+  <path d="M175 238h44m-22-22v44m785 370h38m-19-19v38" stroke="#5baac3" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+  
+    <g filter="url(#shadow)" transform="rotate(-12 600 445)">
+      <rect x="324" y="373" width="552" height="144" rx="60" fill="#293d50"/>
+      <rect x="364" y="411" width="142" height="67" rx="11" fill="#161f1d"/>
+      <rect x="535" y="411" width="96" height="67" rx="11" fill="#161f1d"/>
+      <rect x="660" y="411" width="96" height="67" rx="11" fill="#161f1d"/>
+      <path d="M875 443h104v20H875" fill="none" stroke="#9ca9a2" stroke-width="20" stroke-linecap="round"/>
+      <path d="M408 431h54v26h-54Zm146 0h48v26h-48Zm126 0h48v26h-48Z" fill="#5baac3"/>
+      <circle cx="810" cy="446" r="8" fill="#5baac3"/>
+    </g>
+  <text x="68" y="779" fill="#293d50" opacity=".62" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">UGREEN</text>
+  <text x="68" y="824" fill="#293d50" font-family="Arial,sans-serif" font-size="39" font-weight="700">USB-C 7-in-1 Hub</text>
+  <text x="68" y="855" fill="#293d50" opacity=".58" font-family="Arial,sans-serif" font-size="14">ports: HDMI, USB-A, USB-C, SD</text>
+  <text x="1128" y="824" text-anchor="end" fill="#293d50" opacity=".48" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">ACC-010</text>
+</svg>

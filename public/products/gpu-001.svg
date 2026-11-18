@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">GeForce RTX 4060 Ventus 2X 8G</title>
+  <desc id="desc">MSI GPU product illustration</desc>
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#173e37"/><stop offset="1" stop-color="#193d36"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#20372e" flood-opacity=".2"/></filter>
+  </defs>
+  <rect x="24" y="24" width="1152" height="852" rx="40" fill="#dcefe5" opacity=".34"/>
+  <circle cx="600" cy="432" r="287" fill="#fff" opacity=".48"/>
+  <circle cx="600" cy="432" r="246" fill="none" stroke="#48a98d" stroke-opacity=".17" stroke-width="2"/>
+  <circle cx="600" cy="432" r="207" fill="none" stroke="#48a98d" stroke-opacity=".1" stroke-width="2" stroke-dasharray="4 12"/>
+  <text x="68" y="91" fill="#193d36" font-family="Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="1">TECHNEST</text>
+  <text x="68" y="121" fill="#193d36" opacity=".58" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">THIET BI CONG NGHE</text>
+  <rect x="900" y="62" width="230" height="44" rx="22" fill="#fff" opacity=".78"/>
+  <text x="1015" y="90" text-anchor="middle" fill="#193d36" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">LINH KIEN</text>
+  <path d="M175 238h44m-22-22v44m785 370h38m-19-19v38" stroke="#48a98d" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+  
+    <g filter="url(#shadow)">
+      <path d="M290 328h590q30 0 30 30v230q0 30-30 30H300q-30 0-30-30V358q0-30 30-30Z" fill="#303a38"/>
+      <path d="M320 358h530v180H320Z" fill="#193d36"/>
+      <circle cx="475" cy="447" r="72" fill="#202826" stroke="#48a98d" stroke-width="9"/>
+      <circle cx="475" cy="447" r="18" fill="#48a98d"/>
+      <path d="M475 383q25 40 0 64-25-24 0-64Zm64 64q-40 25-64 0 24-25 64 0Zm-64 64q-25-40 0-64 25 24 0 64Zm-64-64q40-25 64 0-24 25-64 0Z" fill="#48a98d" opacity=".8"/>
+      <circle cx="695" cy="447" r="72" fill="#202826" stroke="#48a98d" stroke-width="9"/>
+      <circle cx="695" cy="447" r="18" fill="#48a98d"/>
+      <path d="M695 383q25 40 0 64-25-24 0-64Zm64 64q-40 25-64 0 24-25 64 0Zm-64 64q-25-40 0-64 25 24 0 64Zm-64-64q40-25 64 0-24 25-64 0Z" fill="#48a98d" opacity=".8"/>
+      <path d="M360 588h450v30H360Z" fill="#d0a554"/>
+      <path d="M375 618v35m30-35v35m30-35v35m30-35v35m30-35v35m30-35v35m30-35v35m30-35v35m30-35v35m30-35v35m30-35v35m30-35v35m30-35v35" stroke="#c89d50" stroke-width="9"/>
+      <circle cx="837" cy="360" r="8" fill="#48a98d"/>
+    </g>
+  <text x="68" y="779" fill="#193d36" opacity=".62" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3">MSI</text>
+  <text x="68" y="824" fill="#193d36" font-family="Arial,sans-serif" font-size="31" font-weight="700">GeForce RTX 4060 Ventus 2X 8G</text>
+  <text x="68" y="855" fill="#193d36" opacity=".58" font-family="Arial,sans-serif" font-size="14">memory: 8GB GDDR6</text>
+  <text x="1128" y="824" text-anchor="end" fill="#193d36" opacity=".48" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">GPU-001</text>
+</svg>

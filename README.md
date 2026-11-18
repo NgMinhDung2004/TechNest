@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TechNest
 
-## Getting Started
+Khung cửa hàng laptop và linh kiện xây dựng bằng Next.js, TypeScript, Prisma và PostgreSQL.
 
-First, run the development server:
+## Yêu cầu
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js 20.9 trở lên
+- Docker Desktop có Docker Compose
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Khởi chạy dự án
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Cài dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+2. Tạo file cấu hình môi trường (PowerShell):
 
-To learn more about Next.js, take a look at the following resources:
+   ```powershell
+   Copy-Item .env.example .env
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Khởi động PostgreSQL:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   docker compose up -d postgres
+   ```
 
-## Deploy on Vercel
+4. Tạo bảng trong database và sinh Prisma Client:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npx prisma migrate dev --name init
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. Nạp dữ liệu mẫu:
+
+   ```bash
+   npm run db:seed
+   ```
+
+6. Chạy ứng dụng:
+
+   ```bash
+   npm run dev
+   ```
+
+Mở [http://localhost:3000](http://localhost:3000).
+
+## Lệnh database
+
+| Lệnh | Mô tả |
+| --- | --- |
+| `npm run db:generate` | Sinh Prisma Client từ schema |
+| `npm run db:migrate -- --name <name>` | Tạo và áp dụng migration trong môi trường phát triển |
+| `npm run db:deploy` | Áp dụng migration đã commit khi deploy |
+| `npm run db:seed` | Upsert 5 danh mục và 50 sản phẩm mẫu |
+| `npm run db:studio` | Mở Prisma Studio |
+
+`docker compose down` dừng PostgreSQL nhưng giữ lại volume dữ liệu. Chỉ dùng `docker compose down -v` khi muốn xóa database local.
+
+Seed cũng tạo 50 ảnh SVG minh họa gốc trong `public/products/`. Đường dẫn public tương ứng với từng SKU được quản lý riêng trong `src/data/product-image-paths.json`; chạy lại `npm run db:seed` sẽ tái tạo ảnh và cập nhật đường dẫn ảnh trong database.
+
+## Mô hình dữ liệu
+
+Prisma schema gồm user/role, danh mục và sản phẩm (thông số JSON), embedding sản phẩm, giỏ hàng, đơn hàng và snapshot sản phẩm trong đơn, đánh giá, tài liệu FAQ, phiên chat và tin nhắn. Embedding hiện lưu dạng JSON; có thể chuyển sang vector extension khi triển khai chức năng truy xuất.
+
+Dùng Prisma Client dùng chung tại `src/lib/prisma.ts` trong code phía server. Danh sách sản phẩm ở `/products` hỗ trợ tìm kiếm, lọc danh mục và phân trang; trang `/products/[slug]` hiển thị chi tiết. API `GET /api/products` nhận các query `q`, `category`, `page` và `limit`. Đăng nhập, thanh toán, admin và NestBot chưa được kết nối.
