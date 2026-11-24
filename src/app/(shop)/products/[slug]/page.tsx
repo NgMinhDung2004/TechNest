@@ -3,6 +3,7 @@ import Link from "next/link";
 import { connection } from "next/server";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
+import AddToCartButton from "@/components/AddToCartButton";
 import { prisma } from "@/lib/prisma";
 
 export default function ProductDetailPage({
@@ -63,6 +64,15 @@ async function ProductDetail({ params }: { params: Promise<{ slug: string }> }) 
             {product.stock > 0 ? `Còn ${product.stock} sản phẩm` : "Tạm hết hàng"}
           </p>
           <p className="product-detail-description">{product.description}</p>
+          <AddToCartButton
+            available={product.stock > 0}
+            product={{
+              productId: product.id,
+              name: product.name,
+              slug: product.slug,
+              price: Number(product.price),
+            }}
+          />
           {specs.length > 0 && (
             <div className="product-specifications">
               <h2>Thông số nổi bật</h2>

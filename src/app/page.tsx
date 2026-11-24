@@ -60,10 +60,10 @@ export default function Home() {
           <Link className="icon-link search-link" href="/products" aria-label="Tìm kiếm">
             <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8" /><path d="m16 16 4.5 4.5" /></svg>
           </Link>
-          <a className="icon-link cart-link" href="#products" aria-label="Giỏ hàng">
+          <Link className="icon-link cart-link" href="/cart" aria-label="Giỏ hàng">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 11.1a2 2 0 0 0 2 1.6h8.5a2 2 0 0 0 1.9-1.4L21 8H6" /><circle cx="9.5" cy="20" r="1" /><circle cx="18" cy="20" r="1" /></svg>
-          </a>
-          <a className="login-link" href="#why-us">Tài khoản</a>
+          </Link>
+          <Link className="login-link" href="/account">Tài khoản</Link>
         </div>
       </header>
 
