@@ -57,6 +57,9 @@ async function OrdersContent() {
                 <div>
                   <strong>{order.orderNumber}</strong>
                   <span>{order.createdAt.toLocaleString("vi-VN")}</span>
+                  <Link className="text-link" href={`/orders/${encodeURIComponent(order.id)}`}>
+                    Xem chi tiết
+                  </Link>
                 </div>
                 <div>
                   <span>{orderStatusLabels[order.status]}</span>

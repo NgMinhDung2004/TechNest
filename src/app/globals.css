@@ -1428,6 +1428,19 @@ a {
   list-style: none;
 }
 
+.order-detail-info {
+  display: grid;
+  gap: 7px;
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.order-detail-info p {
+  margin: 0;
+}
+
 .order-card .cart-total {
   margin-bottom: 0;
 }

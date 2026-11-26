@@ -135,7 +135,7 @@ export async function POST(request: Request) {
   }
 
   if (paymentMethod === PaymentMethod.COD) {
-    return NextResponse.json({ redirectUrl: `/orders?placed=${encodeURIComponent(order.orderNumber)}` }, { status: 201 });
+    return NextResponse.json({ redirectUrl: `/orders/${encodeURIComponent(order.id)}` }, { status: 201 });
   }
 
   const amount = Number(order.total);

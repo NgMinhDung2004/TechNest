@@ -1,11 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useState, type FormEvent } from "react";
+import { signIn } from "next-auth/react";
 
 export default function RegisterPage() {
-  const router = useRouter();
   const [error, setError] = useState("");
   const [submitting, setSubmitting] = useState(false);
 
@@ -32,7 +31,18 @@ export default function RegisterPage() {
         return;
       }
 
-      router.push("/login");
+      const signInResult = await signIn("credentials", {
+        email: formData.get("email"),
+        password: formData.get("password"),
+        redirect: false,
+        redirectTo: "/products",
+      });
+      if (signInResult?.error || !signInResult?.url) {
+        setError("Tài khoản đã tạo nhưng đăng nhập tự động thất bại. Vui lòng đăng nhập.");
+        return;
+      }
+
+      window.location.assign(signInResult.url);
     } catch {
       setError("Không thể kết nối. Vui lòng thử lại.");
     } finally {
