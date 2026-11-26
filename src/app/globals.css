@@ -1199,6 +1199,15 @@ a {
   font-weight: 700;
 }
 
+.account-password-field {
+  display: grid;
+  gap: 7px;
+}
+
+.password-input-wrap {
+  position: relative;
+}
+
 .account-form input {
   width: 100%;
   min-height: 43px;
@@ -1209,6 +1218,42 @@ a {
   color: var(--ink);
   font: inherit;
   font-weight: 400;
+}
+
+.password-input-wrap input {
+  padding-right: 58px;
+}
+
+.password-visibility-toggle {
+  position: absolute;
+  top: 50%;
+  right: 11px;
+  display: grid;
+  width: 32px;
+  height: 32px;
+  padding: 5px;
+  place-items: center;
+  transform: translateY(-50%);
+  border: 0;
+  background: transparent;
+  color: var(--green);
+  cursor: pointer;
+}
+
+.password-visibility-toggle svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.password-visibility-toggle:focus-visible {
+  border-radius: 3px;
+  outline: 2px solid rgba(22, 92, 73, 0.4);
+  outline-offset: 2px;
 }
 
 .account-form input:focus {
